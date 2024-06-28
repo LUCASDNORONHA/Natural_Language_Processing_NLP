@@ -60,4 +60,3 @@ texto2 = "Carros voando."
 padrão_busca10 = r'[Vv].*\.$'
 resultado10 = re.search(padrão_busca10, texto2)
 print("Resultado para padrão_busca10: ", resultado10.group() if resultado10 else "Nenhum resultado encontrado")
-
